@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  gap: 24px;
+}
+
+.column {
+  flex: 1;
+  border: 1px solid black;
+}
+
+.row {
+  padding: 5px;
+  border-bottom: 2px solid red;
+}
+
+.header {
+  font-weight: bold;
+  background-color: #f0f0f0;
+}
+
+.last {
+  border-bottom: none;
+}
