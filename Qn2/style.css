@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  background-color: blue;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.main {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+.content-box {
+  width: 50%;
+  height: 1000px;
+  border: 2px solid #ccc;
+  overflow-y: auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
