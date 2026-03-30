@@ -1,0 +1,21 @@
+.parent {
+  width: 400px;
+  height: 400px;
+  border: 2px solid red;
+  background-color: white;
+  position: relative;
+}
+
+.child {
+  width: 100px;
+  height: 100px;
+  border: 2px solid green;
+  background-image: url('./Qn_3_image.jpg');
+  background-size: cover;
+  background-position: center;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
